@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class MovieServiceApplication {
 	
-	public Logger logger = LoggerFactory.getLogger(MovieServiceApplication.class);
+	public static Logger logger = LoggerFactory.getLogger(MovieServiceApplication.class);
 	@GetMapping
 	public String welcome() {
 		return "Welcome to my page!";
