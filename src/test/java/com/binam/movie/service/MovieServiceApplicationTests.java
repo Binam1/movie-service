@@ -10,7 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @SpringBootTest
-@RunWith(SpringRunner.class)
+//@RunWith(SpringRunner.class)
 class MovieServiceApplicationTests {
 	
 	public static Logger logger = LoggerFactory.getLogger(MovieServiceApplicationTests.class);
