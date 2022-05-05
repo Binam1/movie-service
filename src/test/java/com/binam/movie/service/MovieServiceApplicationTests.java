@@ -16,6 +16,7 @@ class MovieServiceApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("Test case executing...");
+		logger.info(" PIPELINE CHECK..");
 		assertEquals(true, true);
 	}
 
